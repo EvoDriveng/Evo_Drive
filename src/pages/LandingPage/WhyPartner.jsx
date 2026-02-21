@@ -1,7 +1,7 @@
-import dashboard from "../../assets/partners/dashboard_evo.jpg"
-import vehicles from "../../assets/partners/idle_cars.jpg"
-import fleet from "../../assets/partners/fleet_Partners.jpg"
-import renters from "../../assets/partners/verified_renters.jpg"
+import dashboard from "../../assets/partners/dashboard_evo.jpg";
+import vehicles from "../../assets/partners/idle_cars.jpg";
+import fleet from "../../assets/partners/fleet_Partners.jpg";
+import renters from "../../assets/partners/verified_renters.jpg";
 
 export const WhyPartner = () => {
 
