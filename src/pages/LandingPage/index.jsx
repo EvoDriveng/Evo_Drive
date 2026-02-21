@@ -17,12 +17,6 @@ export const LandingPage = () => {
         <HowItWorks/>
         <WhyPartner/>
         <Cta/>
-        {/* <a href="" className='animate-spin transition-transform duration-300 hover:rotate-180'>
-    <div className="max-sm:p-4 p-6 flex flex-col h-screen items-center">
-      <HeroSection />
-      <HowItWorks />
-      <WhyPartner />
-      <Cta />
       <ElectricVehicles />
       <Footer />
       {/* <a href="" className='animate-spin transition-transform duration-300 hover:rotate-180'>
