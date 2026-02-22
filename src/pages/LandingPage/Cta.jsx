@@ -51,5 +51,5 @@ export const Cta = () => {
         </div>
       </div>
     </section>
-  );
-};
+  )
+}
