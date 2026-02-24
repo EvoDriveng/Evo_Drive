@@ -27,5 +27,5 @@ export const LandingPage = () => {
         <h2 className='font-clash'>This is clash display font</h2>
         <p className='font-archivo'> This is Archivo font</p> */}
     </div>
-  )
-}
+  );
+};
