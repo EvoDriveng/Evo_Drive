@@ -9,6 +9,7 @@ import ElectricVehicles from "./ElectricVehicles";
 import Footer from "./Footer";
 
 
+
 export const LandingPage = () => {
   return (
     <div className='max-sm:p-4 p-6 flex flex-col h-screen items-center'>
