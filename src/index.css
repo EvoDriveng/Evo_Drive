@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap');
+@import "tailwindcss";
+
+
+@theme {
+  --font-clash: "Clash Display";
+  --font-archivo: "Archivo"
+}
+
+body {
+  background-color: #f0f0f0;
+}
