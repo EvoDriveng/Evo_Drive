@@ -7,7 +7,7 @@ EVODRIVE  is a modern car rental platform built for Nigeria’s evolving mobilit
 
 ### 1️⃣ Clone repo
 ```bash
-git clone https://github.com/Jchosenn/Evo_Drive.git
+git clone https://github.com/EvoDriveng/Evo_Drive.git
 cd Evo_Drive
 ```
 ### 2️⃣ Install dependencies 
