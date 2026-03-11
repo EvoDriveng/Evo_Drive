@@ -10,7 +10,7 @@ import logo from "../../assets/logo.svg";
 
 const Footer = () => {
   return (
-    <section className="w-full bg-[#000000] rounded-2xl md:rounded-[36px] flex flex-col px-6 mt-10 py-6 gap-6">
+    <section className="w-full bg-[#000000] rounded-tr-2xl md:rounded-t-[36px] flex flex-col px-6 mt-10 py-6 gap-6">
       <div className="w-full h-[330px] rounded-[35px] bg-gradient-to-t from-[#FFFF] via-[#FFFF] to-[#1E78C9] flex flex-col justify-center items-center">
         <div className="flex items-center flex-col mx-auto mt-6">
           <h2 className="font-clash font-medium text-3xl md:text-5xl ">
