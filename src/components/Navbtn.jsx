@@ -1,9 +1,8 @@
 import { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
-import { ArrowRight } from "lucide-react";
+import { ArrowRight, Rotate3D } from "lucide-react";
 import logo from "../assets/logo.svg";
 import logoOnly from "/logo.png";
-// import logoOnlys from "/logo.png"
 
 export const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -13,9 +12,6 @@ export const Navbar = () => {
   };
 
   return (
-    // <div className="w-full rounded-full bg-white flex items-center justify-between px-7 md:py-5 py-3 ">
-    // <div className={isOpen ? `` : `w-full rounded-full bg-white flex items-center justify-between px-7 md:py-5 py-3`}>
-    // ${isOpen ? "opacity-100 translate-x-0 rounded-xl scale-100" : "opacity-0  -translate-y- rounded-full"
     <section
       className={`bg-white px-7 md:py-5 py-3 relative left-0 z-50 ${isOpen ? "rounded-xl" : "rounded-full"}`}
     >
@@ -42,24 +38,28 @@ export const Navbar = () => {
         </div>
         <button
           aria-label="open navigation menu"
-          className="block lg:hidden cursor-pointer rotate-45"
+          className={`block lg:hidden cursor-pointer ${isOpen ? "rotate-45 scale-110" : "rotate-0 scale-100"}`}
           onClick={toggleMenu}
         >
           {isOpen ? <FaTimes /> : <FaBars />}
         </button>
       </div>
-      {/* {isOpen && ( */}
-      <nav className="">
+      <nav>
         <ul
-          className={`origin-top transition-transform duration-900 ease-in-out flex flex-col items-center justify-between gap-5 absolute left-0  w-full bg-white py-4 rounded-xl font-archivo text-[#555C62] ${isOpen ? "opacity-100 scale-y-100" : "opacity-0  scale-y-0 rounded-full"} pointer-events-auto overflow-hidden`}
+          className={`transition-all duration-700 ease-in-out flex flex-col items-center gap-5 absolute left-0 w-full bg-white py-4 rounded-xl font-archivo text-[#555C62] ${isOpen ? "opacity-100 max-h-[500px]" : "opacity-0 max-h-0 "} pointer-events-auto overflow-hidden`}
         >
-          {/* <ul
-            className={`transition-[border-radius, transform, opacity] duration-700 ease-in-out pointer-events-auto overflow-hidden flex flex-col items-center justify-between gap-5 absolute left-0  w-full bg-white py-4 rounded-xl font-archivo text-[#555C62] ${isOpen ? "opacity-100 translate-x-0 rounded-xl scale-100" : "opacity-0 -translate-y- rounded-full"} pointer-events-auto overflow-hidden`}
-          ></ul> */}
-          <li className="cursor-pointer">Rent a Car</li>
-          <li className="cursor-pointer">List Your Vehicle</li>
-          <li className="cursor-pointer">How it works</li>
-          <li className="cursor-pointer">EV Future</li>
+          {["Rent a Car", "List Your Vehicle", "How it works", "EV Future"].map(
+            (item, idx) => (
+              <li
+                key={idx}
+                className="cursor-pointer transform transition-opacity duration-500 ease-in-out"
+                style={{ "--idx": idx }}
+              >
+                {item}
+              </li>
+            ),
+          )}
+
           <div className="flex bg-[#0674FF] text-white items-center gap-4 p-3 rounded-full">
             <span className="font-archivo font-medium">Partner with Us</span>
             <button className="w-6 h-6 text-[#0674FF] font-semibold rounded-full bg-white flex justify-center items-center cursor-pointer">
@@ -68,7 +68,6 @@ export const Navbar = () => {
           </div>
         </ul>
       </nav>
-      {/* )} */}
     </section>
   );
 };
