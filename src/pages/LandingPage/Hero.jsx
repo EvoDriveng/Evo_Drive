@@ -1,15 +1,16 @@
-import logo from "../../assets/logo.svg";
+// import logo from "../../assets/logo.svg";
+// import logoOnly from "/logo.png";
 import heroBg from "../../assets/heroBg.jpg";
 import { Menu } from "lucide-react";
-import logoOnly from "/logo.png";
 import { ArrowRight } from "lucide-react";
 import car1 from "../../assets/cars/car1.svg";
 import car2 from "../../assets/cars/car2.svg";
+import { Navbar } from "../../components/Navbtn";
 
 export const HeroSection = () => {
   return (
     <section className="w-full">
-      <div className="w-full rounded-full bg-white flex justify-between px-7 md:py-5 py-3 ">
+      {/* <div className="w-full rounded-full bg-white flex items-center justify-between px-7 md:py-5 py-3 ">
         <div>
           <img src={logo} alt="EvoDrive logo" className="hidden lg:block" />
           <img
@@ -17,23 +18,26 @@ export const HeroSection = () => {
             alt="EvoDrive logo"
             className="lg:hidden w-14 h-14"
           />
-        </div>
-        <nav className="hidden items-center list-none gap-5 font-archivo text-[#555C62] lg:flex">
+        </div> */}
+        {/* <nav className="hidden items-center list-none gap-5 font-archivo text-[#555C62] lg:flex">
           <li className="cursor-pointer">Rent a Car</li>
           <li className="cursor-pointer">List Your Vehicle</li>
           <li className="cursor-pointer">How it works</li>
           <li className="cursor-pointer">EV Future</li>
-        </nav>
-        <div className="block lg:hidden">
-          <Menu />
-        </div>
-        <div className="hidden lg:flex bg-[#0674FF] text-white items-center gap-4 px-2 rounded-full">
+        </nav> */}
+        {/* <div className="block lg:hidden">
+          <button > */}
+            <Navbar />
+          {/* <Menu /> */}
+          {/* </button> */}
+        {/* </div> */}
+        {/* <div className="hidden lg:flex bg-[#0674FF] text-white items-center gap-4 px-2 rounded-full">
           <span className="font-archivo font-medium">Partner with Us</span>
           <button className="w-10 h-10 text-[#0674FF] font-semibold rounded-full bg-white flex justify-center items-center cursor-pointer">
             <ArrowRight />
           </button>
         </div>
-      </div>
+      </div> */}
 
       <section className="mt-14 text-white">
         <div className="relative min-h-180.5 overflow-hidden rounded-2xl flex flex-col items-center">
