@@ -1,10 +1,3 @@
-// import logo from "../../assets/logo.svg";
-// import logoOnly from "/logo.png";
-import heroBg from "../../assets/heroBg.jpg";
-import { Menu } from "lucide-react";
-import { ArrowRight } from "lucide-react";
-import car1 from "../../assets/cars/car1.svg";
-import car2 from "../../assets/cars/car2.svg";
 import { Navbar } from "../../components/Navbtn";
 
 export const HeroSection = () => {
@@ -42,7 +35,7 @@ export const HeroSection = () => {
       <section className="mt-14 text-white">
         <div className="relative min-h-180.5 overflow-hidden rounded-2xl flex flex-col items-center">
           <img
-            src={heroBg}
+            src="https://res.cloudinary.com/djfduj4fy/image/upload/v1775955253/hero-background_xlv97i.jpg"
             alt="Hero section background-image"
             className="absolute inset-0 w-full h-full   object-cover "
           />
@@ -83,10 +76,10 @@ export const HeroSection = () => {
                 <span className="text-center md:text-left font-clash font-semibold text-[20px] md:text-[34px]">
                   Everyday Use Vehicle
                 </span>
-                <img src={car2} alt="Everyday use Vehicle" />
+                <img src="https://res.cloudinary.com/djfduj4fy/image/upload/v1775955340/Frame-1_cxqq6w.jpg" alt="Everyday use Vehicle" />
               </div>
               <div className="w-full md:w-[50%] flex flex-col-reverse md:flex-row md:items-end text-[#F0F1F3] leading-8 backdrop-blur-xl border rounded-2xl p-2">
-                <img src={car1} alt="Luxurious Vehicles" />
+                <img src="https://res.cloudinary.com/djfduj4fy/image/upload/v1775955352/Frame-2_fgsef3.jpg" alt="Luxurious Vehicles" />
                 <span className="text-center md:text-right font-clash font-semibold text-[20px] md:text-[34px]">
                   Luxurious Vehicles
                 </span>
