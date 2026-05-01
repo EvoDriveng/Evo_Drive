@@ -1,37 +1,11 @@
 import { Navbar } from "../../components/Navbtn";
+import { ArrowRight } from "lucide-react";
+import { FaArrowAltCircleRight } from "react-icons/fa";
 
 export const HeroSection = () => {
   return (
     <section className="w-full">
-      {/* <div className="w-full rounded-full bg-white flex items-center justify-between px-7 md:py-5 py-3 ">
-        <div>
-          <img src={logo} alt="EvoDrive logo" className="hidden lg:block" />
-          <img
-            src={logoOnly}
-            alt="EvoDrive logo"
-            className="lg:hidden w-14 h-14"
-          />
-        </div> */}
-        {/* <nav className="hidden items-center list-none gap-5 font-archivo text-[#555C62] lg:flex">
-          <li className="cursor-pointer">Rent a Car</li>
-          <li className="cursor-pointer">List Your Vehicle</li>
-          <li className="cursor-pointer">How it works</li>
-          <li className="cursor-pointer">EV Future</li>
-        </nav> */}
-        {/* <div className="block lg:hidden">
-          <button > */}
-            <Navbar />
-          {/* <Menu /> */}
-          {/* </button> */}
-        {/* </div> */}
-        {/* <div className="hidden lg:flex bg-[#0674FF] text-white items-center gap-4 px-2 rounded-full">
-          <span className="font-archivo font-medium">Partner with Us</span>
-          <button className="w-10 h-10 text-[#0674FF] font-semibold rounded-full bg-white flex justify-center items-center cursor-pointer">
-            <ArrowRight />
-          </button>
-        </div>
-      </div> */}
-
+      <Navbar />
       <section className="mt-14 text-white">
         <div className="relative min-h-180.5 overflow-hidden rounded-2xl flex flex-col items-center">
           <img
@@ -61,12 +35,9 @@ export const HeroSection = () => {
                 placeholder="Enter your email..."
                 className="flex-1 bg-transparent outline-none text-sm text-black placeholder:italic md:px-2"
               />
-
-              <button className="flex items-center gap-2 bg-[#3B82F6] text-white p-1.5 md:px-3 md:py-2 cursor-pointer hover:bg-[#2c75eb] transition duration-200 rounded-full max-sm:text-xs font-medium focus:ring-[#DADBDD]">
+              <button className="flex items-center gap-2 bg-[#3B82F6] text-white p-2 md:px-3 md:py-2 cursor-pointer hover:bg-[#2c75eb] transition duration-200 rounded-full max-sm:text-xs font-sm">
                 Join the Waitlist
-                <span>
-                  <ArrowRight className="w-3 h-3 md:w-5 md:h-5 text-white" />
-                </span>
+                <FaArrowAltCircleRight className="text-xs md:text-base" />
               </button>
             </div>
           </div>
@@ -76,10 +47,18 @@ export const HeroSection = () => {
                 <span className="text-center md:text-left font-clash font-semibold text-[20px] md:text-[34px]">
                   Everyday Use Vehicle
                 </span>
-                <img src="https://res.cloudinary.com/djfduj4fy/image/upload/v1775955340/Frame-1_cxqq6w.jpg" alt="Everyday use Vehicle" />
+                <img
+                  src="https://res.cloudinary.com/djfduj4fy/image/upload/v1775955340/Frame-1_cxqq6w.jpg"
+                  className="rounded-2xl"
+                  alt="Everyday use Vehicle"
+                />
               </div>
               <div className="w-full md:w-[50%] flex flex-col-reverse md:flex-row md:items-end text-[#F0F1F3] leading-8 backdrop-blur-xl border rounded-2xl p-2">
-                <img src="https://res.cloudinary.com/djfduj4fy/image/upload/v1775955352/Frame-2_fgsef3.jpg" alt="Luxurious Vehicles" />
+                <img
+                  src="https://res.cloudinary.com/djfduj4fy/image/upload/v1775955352/Frame-2_fgsef3.jpg"
+                  className="rounded-2xl"
+                  alt="Luxurious Vehicles"
+                />
                 <span className="text-center md:text-right font-clash font-semibold text-[20px] md:text-[34px]">
                   Luxurious Vehicles
                 </span>
