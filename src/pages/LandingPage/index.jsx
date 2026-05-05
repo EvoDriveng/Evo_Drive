@@ -10,6 +10,7 @@ import Footer from "./Footer";
 
 
 
+
 export const LandingPage = () => {
   return (
     <div className='max-sm:p-4 p-6 flex flex-col h-screen items-center'>
@@ -26,5 +27,5 @@ export const LandingPage = () => {
         <h2 className='font-clash'>This is clash display font</h2>
         <p className='font-archivo'> This is Archivo font</p> */}
     </div>
-  )
-}
+  );
+};
