@@ -7,7 +7,7 @@ export const HeroSection = () => {
     <section className="w-full">
       <Navbar />
       <section className="mt-14 text-white">
-        <div className="relative min-h-180.5 overflow-hidden rounded-2xl flex flex-col items-center">
+        <div className="relative min-h-180.5 overflow-hidden rounded-2xl flex flex-col items-center justify-center">
           <img
             src="https://res.cloudinary.com/djfduj4fy/image/upload/v1775955253/hero-background_xlv97i.jpg"
             alt="Hero section background-image"
@@ -21,7 +21,7 @@ export const HeroSection = () => {
             <p className="font-semibold font-clash text-[28px] md:text-[60px] text-center">
               Rent a car.
             </p>
-            <p className="font-semibold font-clash text-[28px] md:text-[60px] text-white text-center">
+            <p className="font-semibold font-clash text-[28px] md:text-[60px] text-white text-center tracking-tight">
               From Trusted Owners..
             </p>
             <p className="font-archivo lg:text-xl text-white text-center">
@@ -41,7 +41,7 @@ export const HeroSection = () => {
               </button>
             </div>
           </div>
-          <div className="relative z-10 flex flex-col lg:flex-row md:gap-10 px-10 pb-10 mt-10 lg:mt-30">
+          <div className="relative z-10 hidden flex-col lg:flex lg:flex-row lg:gap-10 px-10 pb-10 mt-10 lg:mt-30">
             <div className="flex gap-5 md:gap-10 flex-col lg:flex-row w-75 lg:w-247.5 p-5">
               <div className="w-full md:w-[50%] flex flex-col md:flex-row md:items-end text-[#F0F1F3] leading-8 backdrop-blur-xl border rounded-2xl p-2">
                 <span className="text-center md:text-left font-clash font-semibold text-[20px] md:text-[34px]">

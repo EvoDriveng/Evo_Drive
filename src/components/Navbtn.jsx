@@ -32,7 +32,7 @@ export const Navbar = () => {
           <li className="cursor-pointer hover:text-[#697c8b]">How it works</li>
           <li className="cursor-pointer hover:text-[#697c8b]">EV Future</li>
         </nav>
-        <button className="flex items-center gap-2 bg-[#0674FF] text-white p-2 md:px-3 md:py-2 cursor-pointer hover:bg-[#2c75eb] transition duration-200 rounded-full max-sm:text-xs font-sm">
+        <button className="hidden lg:flex items-center gap-2 bg-[#0674FF] text-white p-2 md:px-3 md:py-2 cursor-pointer hover:bg-[#2c75eb] transition duration-200 rounded-full max-sm:text-xs font-sm">
           Partner with Us
           <FaArrowAltCircleRight className="text-xs md:text-base" />
         </button>
