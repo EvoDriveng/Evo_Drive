@@ -6,7 +6,7 @@ export const HeroSection = () => {
   return (
     <section className="w-full">
       <Navbar />
-      <section className="mt-14 text-white">
+      <section className="mt-14">
         <div className="relative min-h-180.5 overflow-hidden rounded-2xl flex flex-col items-center justify-center">
           <img
             src="https://res.cloudinary.com/djfduj4fy/image/upload/v1775955253/hero-background_xlv97i.jpg"
