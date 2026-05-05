@@ -1,9 +1,3 @@
-import car3 from "../../assets/cars/car3.svg";
-import car4 from "../../assets/cars/car4.svg";
-import car5 from "../../assets/cars/car5.svg";
-import car6 from "../../assets/cars/car6.svg";
-import car7 from "../../assets/cars/car7.svg";
-
 export const CarRentals = () => {
   return (
     <section className="bg-white w-full rounded-4xl p-5 mt-15">
@@ -22,7 +16,7 @@ export const CarRentals = () => {
           <div className="flex flex-col gap-5 w-full md:w-1/2">
             <div className="relative h-53">
               <img
-                src={car3}
+                src="https://res.cloudinary.com/djfduj4fy/image/upload/v1775955668/car1_vwxmfq.jpg"
                 alt="Verified cars and owners only "
                 className="rounded-2xl w-full h-full object-cover"
               />
@@ -41,7 +35,7 @@ export const CarRentals = () => {
 
             <div className="relative h-53">
               <img
-                src={car4}
+                src="https://res.cloudinary.com/djfduj4fy/image/upload/v1775956032/car2_1_lbtwmx.jpg"
                 alt="Electric vehicles"
                 className="rounded-2xl w-full h-full object-cover"
               />
@@ -62,7 +56,7 @@ export const CarRentals = () => {
             <div className="bg-[#010B14] rounded-4xl h-105 md:h-115 px-4 py-3 flex flex-col justify-between">
               <div className="relative h-53">
                 <img
-                  src={car5}
+                  src="https://res.cloudinary.com/djfduj4fy/image/upload/v1775956225/car3_1_ptsu9f.jpg"
                   alt="Multiple car brands"
                   className="rounded-2xl w-full h-full object-cover"
                 />
@@ -77,7 +71,7 @@ export const CarRentals = () => {
           <div className="flex flex-col gap-5 w-full md:w-1/2">
             <div className="relative h-53">
               <img
-                src={car6}
+                src="https://res.cloudinary.com/djfduj4fy/image/upload/v1775956320/car4_1_idlpbt.jpg"
                 alt="Luxury car available for self-drive or chauffeur service"
                 className="rounded-2xl w-full h-full object-cover"
               />
@@ -95,7 +89,7 @@ export const CarRentals = () => {
             </div>
             <div className="relative h-53">
               <img
-                src={car7}
+                src="https://res.cloudinary.com/djfduj4fy/image/upload/v1775956401/car5_1_ruqwyo.jpg"
                 alt="Car available with insurance protection options"
                 className="rounded-2xl w-full h-full object-cover"
               />
