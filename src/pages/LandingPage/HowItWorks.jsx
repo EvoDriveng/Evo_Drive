@@ -8,7 +8,7 @@ export const HowItWorks = () => {
     },
     {
       title: "Step 2",
-      text: "Choose Rental Type (Self-drive or Chauffeur)",
+      text: "Choose Rental Type (Self-drive or Chauffeur) and test",
       span: "col-span-2"
     },
     {
